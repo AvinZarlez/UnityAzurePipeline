@@ -16,7 +16,7 @@
 # Variables predefined for this build process:
 variables:
 
-  # By default, run tests. If you do not have tests, set to false to increase build speed.
+  # If true, will run tests, otherwise skip them. If you do not have tests, set to false to increase build speed.
   runTests: false
 
   # The path to the folder which contains the Assets folder of the project.
