@@ -84,17 +84,13 @@ Be sure to quit Unity to prepare for commiting to a git repository. If you have 
 Once you add, commit, and push your Unity project files up to ADO, the only things you see in your repo's files should be Assets, Packages, ProjectSettings, and .gitignore.
 
 ## ♨ Get our ✨**Azure-Pipelines.yml**✨ Homemade Recipe! ♨
-We have already done the hard work for you! We are providing you with an [Azure Pipelines YAML file]() that will build your Unity project on a Windows Hosted Agent -- at no additional cost! 😉 
+We have already done the hard work for you! We are providing you with an [Azure Pipelines YAML file](https://github.com/microsoft/Azure-DevOps-YAML-for-Unity/blob/master/azure-pipelines.yml) that will build your Unity project on a Windows Hosted Agent -- at no additional cost! 😉 
 
 This build pipeline is designed for ARM UWP projects (what the HoloLens 2 uses), running Unity 2019.x, with MRTK Foundation. It is customizable to suit older versions of Unity, Visual Studio, and HoloLens 1. 
 
 You do not need to use an empty build pipeline template to start from scratch, or  select which agent pools to use. 😎
 
-### Download ```Azure-Pipelines.yml``` from...
-- [Tobiah Zarlez's GitHub](https://github.com/TobiahZ/UnityAzurePipeline/blob/master/azure-pipelines.yml) (short term)
-- the bottom of this [ReadMe.md](#the-yaml)
-- CSE Eng Playbook? (long term)
-- MS Flex? (deprecated?)
+# 👉🏼[Download ```Azure-Pipelines.yml``` from GitHub👈🏼](https://github.com/microsoft/Azure-DevOps-YAML-for-Unity/blob/master/azure-pipelines.yml)
 
 ## Upload ```Azure-Pipelines.yml``` to your ADO Repo!
 The easiest way to upload a file to ADO is to click the "Upload file(s)" button from your Repos page. Then you can simply drag and drop or browse for our ```azure-pipelines.yml``` file.
@@ -126,8 +122,4 @@ Alternatively, click the "Pipelines" blue rocket icon > "New pipeline" button > 
 Complete this step according to your needs.
 
 # The YAML
-Read the comments located within the yml file for more delicious information on how this pipeline works.
-
-https://github.com/TobiahZ/UnityAzurePipeline/blob/75e4f53951af76890a2055563321a7a2a9589107/azure-pipelines.yml#L1-L59
-
-Read the rest [here](/azure-pipelines.yml).
+Read the comments located [within the yml file](/azure-pipelines.yml) text for more information on how this pipeline works.
